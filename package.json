@@ -4,8 +4,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build",
-        "preview": "vite preview"
+        "ghbuild": "vite build --outDir docs --base=/test-deploy"
     },
     "license": "MIT",
     "dependencies": {
